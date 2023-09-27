@@ -1,13 +1,18 @@
-# audio-genre-classifier
- 
+# Audio Genre Classifier
+
+This project's origin is [here](https://github.com/weaviate/weaviate-examples/tree/main/audio-genre-classification).
+
 This Demo demonstrates the usage of weaviate img2vec module, Which is a module that converts images to vectors using neural network and then allow us to perform various operations. More information for this module can be found [here](https://weaviate.io/developers/weaviate/current/retriever-vectorizer-modules/img2vec-neural.html) . 
 
-The Dataset used for this example can be found [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) \
-It is data of spectrogram of audios of 10 categories namely 'blues','classical','country','disco','hiphop','jazz','metal','pop','reggae','rock'. \
-Note: These spectrograms were created from audios of length 30 seconds, So they will best classify audios with similar length
+https://user-images.githubusercontent.com/75658681/189474112-b991c834-15ad-4da7-a3b7-418c121bb5ae.mp4
+
 
 This example uses HTML,CSS,Js for frontend and Flask for the backend. 
 
+## Prerequisites
+(TO DO)
+
+## Setup instructions
 Follow the following steps to reproduce the example 
 1. Download the dataset from [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) and paste it in the directory where add_data.py file exists 
 2. Run the following command to run the weaviate docker file 
@@ -27,8 +32,13 @@ python add_data.py
 ```bash
 python upload.py
 ``` 
-A short demo usage:-
+## Usage instructions
+(TO DO)
 
-https://user-images.githubusercontent.com/75658681/189474112-b991c834-15ad-4da7-a3b7-418c121bb5ae.mp4
 
 Note: This demo supports the .wav extensions. If you want to use .mp3 extensions as well, You need to download a specific library according to your OS from here: https://github.com/librosa/librosa#audioread-and-mp3-support
+
+## Dataset license
+The Dataset used for this example can be found [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) \
+It is data of spectrogram of audios of 10 categories, namely 'blues', 'classical', 'country', 'disco', 'hiphop', 'jazz', 'metal', 'pop', 'reggae', and 'rock'. \
+Note: These spectrograms were created from audios of length 30 seconds, So they will best classify audios with similar length
