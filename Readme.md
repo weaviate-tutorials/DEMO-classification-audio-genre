@@ -10,7 +10,9 @@ https://user-images.githubusercontent.com/75658681/189474112-b991c834-15ad-4da7-
 This example uses HTML,CSS,Js for frontend and Flask for the backend. 
 
 ## Prerequisites
-(TO DO)
+Make sure you have installed all of the following prerequisites on your development machine:
+1. Download & install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+2. Download & install [Python](https://www.python.org/downloads/)
 
 ## Setup instructions
 Follow the following steps to reproduce the example 
