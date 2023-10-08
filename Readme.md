@@ -42,5 +42,6 @@ Note: This demo supports the .wav extensions. If you want to use .mp3 extensions
 
 ## Dataset license
 The Dataset used for this example can be found [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) \
+The license of the datset used is UNKNOWN. \
 It is data of spectrogram of audios of 10 categories, namely 'blues', 'classical', 'country', 'disco', 'hiphop', 'jazz', 'metal', 'pop', 'reggae', and 'rock'. \
-Note: These spectrograms were created from audios of length 30 seconds, So they will best classify audios with similar length
+Note: These spectrograms were created from audios of length 30 seconds, So they will best classify audios with similar length.
